@@ -1,0 +1,33 @@
+:root {
+  /* ── Neutral (Light) ── */
+  --color-neutral-900: #051513;
+  --color-neutral-800: #4C5C59;
+  --color-neutral-500: #899492;
+  --color-neutral-400: #C0CFCC;
+  --color-neutral-300: #DDE9E7;
+  --color-neutral-100: #E8F0EF;
+  --color-neutral-0: #FFFFFF;
+
+  /* ── Neutral (Dark) ── */
+  --color-neutral-dark-900: #001414;
+  --color-neutral-dark-800: #001F1F;
+  --color-neutral-dark-600: #002E2D;
+  --color-neutral-dark-500: #004241;
+  --color-neutral-dark-400: #004746;
+  --color-neutral-dark-300: #00706E;
+  --color-neutral-dark-100: #B1B9B9;
+
+  /* ── Teal ── */
+  --color-teal-700: #014745;
+  --color-teal-800: #013C3B;
+
+  /* ── Red ── */
+  --color-red-600: #FD4740;
+  --color-red-800: #CB0A04;
+
+  /* ── Semantic ── */
+  --color-primary: #014745;
+  --color-primary-hover: #013C3B;
+  --color-danger: #FD4740;
+  --color-danger-hover: #CB0A04;
+}

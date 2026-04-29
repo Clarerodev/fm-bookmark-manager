@@ -1,0 +1,95 @@
+/* ── Semantic surface tokens (light / dark) ── */
+:root {
+  --surface-bg: var(--color-neutral-0);
+  --surface-raised: var(--color-neutral-100);
+  --surface-overlay: var(--color-neutral-300);
+  --surface-sidebar: var(--color-neutral-100);
+
+  --text-primary: var(--color-neutral-900);
+  --text-secondary: var(--color-neutral-800);
+  --text-tertiary: var(--color-neutral-500);
+  --text-inverse: var(--color-neutral-0);
+
+  --border-default: var(--color-neutral-300);
+  --border-subtle: var(--color-neutral-100);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface-bg: var(--color-neutral-dark-900);
+    --surface-raised: var(--color-neutral-dark-800);
+    --surface-overlay: var(--color-neutral-dark-600);
+    --surface-sidebar: var(--color-neutral-dark-800);
+
+    --text-primary: var(--color-neutral-0);
+    --text-secondary: var(--color-neutral-dark-100);
+    --text-tertiary: var(--color-neutral-dark-300);
+    --text-inverse: var(--color-neutral-dark-900);
+
+    --border-default: var(--color-neutral-dark-500);
+    --border-subtle: var(--color-neutral-dark-600);
+  }
+}
+
+/* ── Base reset ── */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-sans);
+  color: var(--text-primary);
+  background-color: var(--surface-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Text preset utility classes ── */
+.text-preset-1 {
+  font-size: var(--text-preset-1-size);
+  line-height: var(--text-preset-1-lh);
+  font-weight: var(--font-weight-bold);
+}
+
+.text-preset-2 {
+  font-size: var(--text-preset-2-size);
+  line-height: var(--text-preset-2-lh);
+  font-weight: var(--font-weight-bold);
+}
+
+.text-preset-2-semibold {
+  font-size: var(--text-preset-2-size);
+  line-height: var(--text-preset-2-lh);
+  font-weight: var(--font-weight-semibold);
+}
+
+.text-preset-3 {
+  font-size: var(--text-preset-3-size);
+  line-height: var(--text-preset-3-lh);
+  font-weight: var(--font-weight-semibold);
+}
+
+.text-preset-3-medium {
+  font-size: var(--text-preset-3-size);
+  line-height: var(--text-preset-3m-lh);
+  font-weight: var(--font-weight-medium);
+}
+
+.text-preset-4 {
+  font-size: var(--text-preset-4-size);
+  line-height: var(--text-preset-4-lh);
+  font-weight: var(--font-weight-semibold);
+}
+
+.text-preset-4-medium {
+  font-size: var(--text-preset-4-size);
+  line-height: var(--text-preset-4m-lh);
+  font-weight: var(--font-weight-medium);
+}
+
+.text-preset-5 {
+  font-size: var(--text-preset-5-size);
+  line-height: var(--text-preset-5-lh);
+  font-weight: var(--font-weight-medium);
+}
